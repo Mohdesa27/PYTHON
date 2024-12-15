@@ -1,0 +1,5 @@
+f=open("index.txt","r")
+text=f.read()
+a=f.read(8)
+print(text,a)
+f.close()
